@@ -1,0 +1,8 @@
+[
+  {
+    "name": "support-group",
+    "chat_id": "oc_xxxxxxxxxxxxxxxxx",
+    "as": "bot",
+    "page_size": 50
+  }
+]

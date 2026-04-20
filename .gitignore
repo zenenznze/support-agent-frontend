@@ -1,0 +1,10 @@
+node_modules/
+frontend/dist/
+frontend/dist-experimental/
+bridge/data/
+bridge/data-experimental/
+ops-output/
+.env
+.DS_Store
+__pycache__/
+*.pyc

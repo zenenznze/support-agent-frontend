@@ -1,0 +1,16 @@
+[Unit]
+Description=Support Chat Runtime bridge
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=/opt/support-chat-runtime/bridge
+EnvironmentFile=-/etc/default/support-chat-runtime
+ExecStart=/usr/bin/env node /opt/support-chat-runtime/bridge/src/server.js
+Restart=always
+RestartSec=3
+User=ubuntu
+Environment=NODE_ENV=production
+
+[Install]
+WantedBy=multi-user.target
