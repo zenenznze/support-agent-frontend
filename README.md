@@ -1,6 +1,6 @@
 # Support Chat Runtime
 
-A private, genericized starter repository for an anonymous web support chat runtime.
+A generic starter repository for an anonymous web support chat runtime, prepared for eventual public release.
 
 What is included:
 - frontend/ — responsive web chat UI for desktop and mobile
@@ -70,6 +70,14 @@ Key bridge env vars:
 - ops/sync_knowledge_docs.sh — wrapper around any external knowledge sync script
 - ops/chat_records/fetch_raw_chat_records.py — capture raw Feishu/Lark message payloads locally
 
-## Notes
+## Release status
 
-This repository is intentionally private-first. It is structured so product-specific adapters, branding, and internal documentation can be added or removed cleanly before any future open-source release.
+This repository has already been stripped of the original product-specific branding and runtime coupling that existed in the source project.
+
+Before publishing it publicly, finish this short checklist:
+- remove any accidentally committed cache or generated files
+- choose and add a LICENSE file
+- configure the public remote repository
+- do one final sanitization scan for environment-specific values
+
+See `docs/public-release-checklist.md` for the publishing checklist.

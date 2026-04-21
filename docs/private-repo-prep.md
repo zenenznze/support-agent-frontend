@@ -1,4 +1,4 @@
-# Private Repo Prep Notes
+# Public Release Prep Notes
 
 This repository was assembled as a genericized extraction of a production support-chat workflow.
 
@@ -16,7 +16,9 @@ Explicitly removed or generalized:
 - production-only support copy
 
 Recommended next steps before publishing publicly:
-1. replace any remaining environment-specific absolute paths
-2. add a generic backend adapter package if you want non-mock primary mode to be turnkey
-3. add tests around the external backend contract
-4. document the expected payload format for BACKEND_CHAT_URL and BACKEND_HISTORY_URL
+1. remove any accidentally committed cache or generated files
+2. choose and add a license file
+3. add a public remote repository and publishing instructions
+4. add a generic backend adapter package if you want non-mock primary mode to be turnkey
+5. add tests around the external backend contract
+6. document the expected payload format for BACKEND_CHAT_URL and BACKEND_HISTORY_URL
