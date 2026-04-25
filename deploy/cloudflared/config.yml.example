@@ -1,5 +1,5 @@
-tunnel: support-chat-runtime
-credentials-file: /etc/cloudflared/support-chat-runtime.json
+tunnel: support-agent-frontend
+credentials-file: /etc/cloudflared/support-agent-frontend.json
 
 ingress:
   - hostname: chat.example.com

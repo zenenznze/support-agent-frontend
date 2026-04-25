@@ -6,7 +6,7 @@ import assert from 'node:assert/strict'
 
 process.env.PORT = '0'
 process.env.BRIDGE_MODE = 'mock'
-process.env.BRIDGE_DATA_DIR = mkdtempSync(path.join(tmpdir(), 'support-chat-runtime-'))
+process.env.BRIDGE_DATA_DIR = mkdtempSync(path.join(tmpdir(), 'support-agent-frontend-'))
 process.env.FRONTEND_DIST_DIR = path.join(process.env.BRIDGE_DATA_DIR, 'missing-frontend-dist')
 process.env.MOCK_ASSISTANT_NAME = 'Support Bot'
 

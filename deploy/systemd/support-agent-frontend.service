@@ -1,0 +1,16 @@
+[Unit]
+Description=Support Agent Frontend bridge
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=/opt/support-agent-frontend/bridge
+EnvironmentFile=-/etc/default/support-agent-frontend
+ExecStart=/usr/bin/env node /opt/support-agent-frontend/bridge/src/server.js
+Restart=always
+RestartSec=3
+User=ubuntu
+Environment=NODE_ENV=production
+
+[Install]
+WantedBy=multi-user.target

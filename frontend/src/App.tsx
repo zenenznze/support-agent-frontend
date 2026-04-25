@@ -1,6 +1,6 @@
     import { useEffect, useMemo, useState } from 'react'
 
-    const THEME_KEY = 'support-chat-runtime-theme'
+    const THEME_KEY = 'support-agent-frontend-theme'
 
     type ChatMessage = {
       id?: string
@@ -226,7 +226,7 @@
                   {sending ? 'Sending…' : 'Send'}
                 </button>
               </div>
-              <div className="footer-brand">support-chat-runtime starter</div>
+              <div className="footer-brand">support-agent-frontend starter</div>
             </footer>
           </div>
         </div>

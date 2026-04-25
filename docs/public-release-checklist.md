@@ -33,6 +33,6 @@ Last checked in this repository before the public-ready commit:
 - Frontend: `npm run build` completed successfully.
 - Bridge: `npm test` completed successfully.
 - Bridge mock start: `npm run start` answered `/api/health` with `{ "ok": true, "mode": "mock" }`.
-- Remote: `origin` points to `https://github.com/zenenznze/support-chat-runtime.git`; GitHub reports default branch `main` and current visibility `public` after owner confirmation.
-- Public access: unauthenticated `https://github.com/zenenznze/support-chat-runtime` and raw README access both returned HTTP 200.
+- Remote: `origin` points to `https://github.com/zenenznze/support-agent-frontend.git`; GitHub reports default branch `main` and current visibility `public` after owner confirmation.
+- Public access: unauthenticated `https://github.com/zenenznze/support-agent-frontend` and raw README access both returned HTTP 200.
 - Dependency audit: `npm audit --omit=dev` reports zero vulnerabilities in both frontend and bridge packages.
