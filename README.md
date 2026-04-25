@@ -28,6 +28,8 @@
 - `mock`：仅写本地会话记录，适合演示和本地调试
 - `external`：转发到你自己的后端 HTTP 接口
 
+配套后端方向：[`support-agent`](https://github.com/zenenznze/support-agent) 是计划中的专用客服后端仓库，可作为 `external` 模式的后端实现参考。该后端仍按独立仓库节奏构建，前端仓库不会内置真实客服/AI 回答能力。
+
 实验链路：
 
 - 调用可配置的辅助脚本或命令

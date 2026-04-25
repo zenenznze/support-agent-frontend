@@ -226,7 +226,9 @@
                   {sending ? 'Sending…' : 'Send'}
                 </button>
               </div>
-              <div className="footer-brand">support-agent-frontend starter</div>
+              <div className="footer-brand">
+                support-agent-frontend starter · backend: <a href="https://github.com/zenenznze/support-agent" target="_blank" rel="noreferrer">support-agent</a>
+              </div>
             </footer>
           </div>
         </div>

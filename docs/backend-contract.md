@@ -2,6 +2,8 @@
 
 `BRIDGE_MODE=external` lets the bridge forward chat and history requests to a backend that you operate.
 
+Related backend direction: [`support-agent`](https://github.com/zenenznze/support-agent) is the planned dedicated support backend repository for this frontend. Treat it as the recommended implementation direction for this contract, not as a feature built into the frontend runtime.
+
 ## Environment variables
 
 - `BACKEND_CHAT_URL`: HTTP endpoint for sending one user message.

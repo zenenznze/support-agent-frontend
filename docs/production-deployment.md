@@ -187,6 +187,8 @@ sudo chown -R "$USER":"$USER" /var/lib/support-agent-frontend
 
 external 模式适合真实生产：bridge 负责前端与会话映射，你的后端负责真实回答和历史记录。
 
+配套后端方向：[`support-agent`](https://github.com/zenenznze/support-agent) 是计划中的专用客服后端仓库，可作为本前端 external contract 的推荐实现方向。部署本文档时仍需以该后端仓库的实际完成状态为准；当前前端仓库不内置真实客服/AI 回答能力。
+
 你的后端必须实现：
 
 - `POST BACKEND_CHAT_URL`

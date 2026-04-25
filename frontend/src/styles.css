@@ -172,6 +172,8 @@ button, textarea { font: inherit; }
 .bubble-text a:hover { color: #1d34b4; }
 .bubble-text span { white-space: pre-wrap; }
 .footer-brand { margin-top: 10px; text-align: center; font-size: 11px; color: var(--muted); letter-spacing: 0.04em; }
+.footer-brand a { color: inherit; text-decoration: underline; text-underline-offset: 2px; }
+.footer-brand a:hover { color: var(--status-text); }
 
 @media (max-width: 640px) {
   .app-shell { padding: 0; }
