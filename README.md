@@ -82,6 +82,8 @@ bridge 侧常用环境变量：
 
 外部后端接口约定见：`docs/backend-contract.md`
 
+从零到一的生产部署教程见：`docs/production-deployment.md`。该教程单独区分了当前已实现能力与仍需二次开发的设计/模板能力。
+
 ## 运维脚本
 
 - `ops/export_webchat_usage.py`：从 bridge API 导出使用情况汇总
