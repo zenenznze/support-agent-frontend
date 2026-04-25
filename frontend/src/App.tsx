@@ -73,8 +73,7 @@
     }
 
     function renderMessageText(text: string) {
-      const lines = text.split('
-')
+      const lines = text.split('\n')
       return lines.map((line, lineIndex) => {
         const trimmed = line.trim()
         const pureUrl = /^https?:\/\/[^\s]+$/.test(trimmed)
